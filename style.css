@@ -1,0 +1,96 @@
+/* Selector {
+    Property: value
+} */
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1562250883-a18ef907fcab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+p {
+  color: #aa4439;
+  text-align: center;
+  border: 5px dashed rgba(255, 178, 170, 0.5);
+  cursor: wait;
+}
+
+p {
+  color: pink;
+  font-family: "Poiret One";
+}
+
+p {
+  color: green;
+}
+
+li {
+  background-color: black;
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext :first-child {
+  border: 5px solid green;
+}
+
+.active {
+  color: red;
+}
+
+p {
+  line-height: 5px;
+  font-style: italic;
+  font-weight: none;
+  font-size: 150%;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.3);
+  text-align: left;
+}
+
+#div2 {
+  background: rgba(255, 0, 0, 0.2);
+  text-align: left;
+}
+/* CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order */

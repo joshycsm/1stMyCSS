@@ -1,0 +1,24 @@
+h2 {
+  color: blue;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-size: 1rem;
+}
+
+/* rem will change size based on the root size of the html */
+/* .boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0px 20px;
+  width: 33px;
+  height: 5px;
+} */
+
+/* padding: top right bottom left */
+/* margin: top/bottom right/left */
